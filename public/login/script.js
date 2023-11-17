@@ -35,5 +35,5 @@ function handleCredentialResponse(googleUser) {
   console.log(googleUser, "googleUser"); // output after user finished login 
 
   // console.log(atob(googleUser.credential.split(".")[1]), "payload"); // user details from login , need to apply btoa for  response to see the data 
-  window.location.href = "https://akkified.github.io/forum/public/main"; // Replace with the URL you want to navigate to
+  window.location.href = "https://luminousforum.cyclic.app/main"; // Replace with the URL you want to navigate to
 }
