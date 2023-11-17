@@ -13,6 +13,18 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
     res.sendFile(`${__dirname}/index.html`)
 })
+app.get("/about", (req, res) => {
+    res.sendFile(`${__dirname}/public/about.html`)
+})
+app.get("/contacts", (req, res) => {
+    res.sendFile(`${__dirname}/public/contacts.html`)
+})
+app.get("/icare", (req, res) => {
+    res.sendFile(`${__dirname}/public/icare.html`)
+})
+app.get("/main", (req, res) => {
+    res.sendFile(`${__dirname}/public/main.html`)
+})
 /*
 app.get("/[custom path]", (req, res) => {
     res.sendFile(`${__dirname}/public/[name of html file.html])
