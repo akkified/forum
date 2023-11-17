@@ -1,0 +1,23 @@
+{
+    "name": "luminousforum",
+    "version": "1.0.0",
+    "description": "For Students to connect with Students",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node index.js"
+    },
+    "keywords": [
+        "[KEYWORD 1]",
+        "[KEYWORD 2]",
+        "[KEYWORD 3]",
+        "etc (you don't need to put anythin in keywords, but do need to have it, and have the [] for it"
+    ],
+    "author": "[DON'T PUT ANYTHING HERE]",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^20.9.1",
+        "express": "^4.18.2"
+    }
+}

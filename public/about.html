@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-signin-client_id" content="250259069144-pp2af1u5jfk3mr7u7gqajonq7n66nkrt.apps.googleusercontent.com">
+    <title>Luminous Forum</title>
+    <link rel="shortcut icon" href="login/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script src="https://apis.google.com/js/api:client.js"></script>
+    <link rel="stylesheet" href="login/style2.css" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" /> 
+
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index" class="nav_logo">Luminous Forum</a>
+
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="contacts" class="nav_link">Contacts</a>
+            <a href="icare" class="nav_link">ICARE</a>
+            <a href="https://forms.gle/S8fTH7j7n9cQxyaz5" target="_blank" class="nav_link">Join us!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <div style="margin-top: 100px; text-align: center;">
+          <h3>About Us!</h3>
+        </div>
+        <!-- Login From -->
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+      </div>
+      <div style="margin-top: 60px; color: #FFFFFF;">
+        <h2 style="text-align: center;">About Us!</h2>
+        <h5></h5>
+        <p style="margin-left: 50px; margin-right: 50px; font-size: 20px; text-shadow: 0px 0px 30px #FFFFFF; text-align: center;">Our ultimate mission is to foster a kind, collaborative, and supportive online learning community and environment within our school. We aim to create an enviroment where students can take part in in effective peer tutoring and share knowledge seamlessly, which will aide our fellow students, impacting their future greatly. Through our innovative tutoring software, we strive to create an environment that promotes academic excellence, fosters mutual growth, and provides an innovative platform for students to excel together. By connecting learners, sharing insights, and facilitating interactive learning experiences, we are dedicated to helping each student reach their fullest potential while building a foundation of knowledge that extends beyond the classroom, streching as far as the eyes can see.
+
+        </p><!--Add p tags here to add text-->
+
+        <img src="login/vsc.png" alt="vsc" height="100px" width="100px"  style="margin-left: 100px; margin-top: 600px; display: block; margin-left: auto; margin-right: auto;">
+        <p style="color: rgb(0, 0, 0); text-align: center; margin-left: 100px; margin-right: 100px;">
+          Our main tool was Visual Studio Code, which we used to actually code our website. We also used 
+          Cloud Console as well as Google Developer Tools. We embedded a forum from Powr, and also have a Google API for 
+          Login with Google.
+        </p>
+        <img src="login/gp.jpg" alt="group-foto" height="275px" width="400px" style="margin-top: 100px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 50px;">
+        <p style="color: black; text-align: center; margin-left: 100px; margin-right: 100px;">
+          This is our team! Rik is the founder of the project. Akhil is the cofounder, and he makes most of the coding pieces. Christian is another cofounder, and he helps researching for new ways to excecute the same plan. Vayun is another cofounder, our design specialist, and our sales representative.
+        </p>
+
+        <ul style="color: black; text-align: center; margin-top: 100px; margin-bottom: 100px;">
+          <span>In our design process, we faced countless adverse challenges and issues :</span>
+          <li>Our Login with Google button did not work properly</li>
+          <li>Our Backgrounds used to interfere with the content</li>
+          <li>We could not find a good forum, so we used comments</li>
+          <li>While trivial, our backgrounds were hard to find</li>
+          
+        </ul>
+        <dl style="color: rgb(0, 0, 0); text-align: left; margin-left: 100px; margin-right: 100px;">
+            <span>Here are the steps you need to access our forum.</span>
+            <li>Go to our login page <a href="index.html"></a></li>
+            <li>Press the login with google button</li>
+            <li>Enter your FSA email (very important)</li>
+            <li>Contact a selection of our tutors or talk about your different academic problems</li>
+        </dl>
+
+        <h2 style="color: black; text-align: center; margin-top: 100px; margin-bottom: 10px;">Engineering Design Process</h2>
+        <p style="color: black; text-align: center; margin-top: 10px; margin-bottom: 100px; margin-left: 100px; margin-right: 100px;">
+          Becuse our project is all virtual, all of our steps consited of some form of device. 
+          We started off with the idea. Rik wanted to make students better teachers, 
+          but at the same time, help students learn faster. He came up with the idea of 
+          making a forum. The first version of our forum was functional. It worked, 
+          but it was ugly. We had a design with 2 components: the header and the body. Our next
+          phase was to add design. We started with redoing all of our layout. Instead of having 2 blocks,
+          we have one big chunk that has all of our content. This keeps it organized, and lets us 
+          prioritize other aspects of our development. After creating a design, we added our content onto this. This was harder than expected. 
+          We had to go through many lines of ode to find the error. With that solved, we had to add a login button. 
+          Our process was always creating something new, and then getting criticism and new ideas. 
+          This is how we keep improving out forum.
+        </p>
+
+      </div>
+      
+    </section>
+
+    <script src="login/script.js"></script>
+ 
+
+</body>
+</html>
