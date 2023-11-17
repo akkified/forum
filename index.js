@@ -25,6 +25,9 @@ app.get("/icare", (req, res) => {
 app.get("/main", (req, res) => {
     res.sendFile(`${__dirname}/public/main.html`)
 })
+app.use((req, res , next) =>{
+    res.status(404).sendFile(`${__dirname}/public/404.html`)
+})
 /*
 app.get("/[custom path]", (req, res) => {
     res.sendFile(`${__dirname}/public/[name of html file.html])
